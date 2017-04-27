@@ -1,4 +1,4 @@
-package formation.bigdata.com.reservation;
+package formation.bigdata.com.wordCount;
 
 
 import org.apache.hadoop.conf.Configuration;
@@ -9,9 +9,6 @@ import org.apache.hadoop.mapreduce.Job;
 import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 import org.apache.hadoop.util.GenericOptionsParser;
-
-import formation.bigdata.com.reservation.MyMapper;
-import formation.bigdata.com.reservation.MyReducer;
 
 public class MyLauncher {
 
